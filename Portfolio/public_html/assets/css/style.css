@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=K2D|Montserrat');
+html{
+	scroll-behavior: smooth;
+}
+body{
+	height: 100%;
+	margin: 0;
+	font: 400 15px/1.8 "K2D", "Arial", sans-serif;
+	color: #440026;
+	background-color: #FFF;
+}
+.top-part{
+	height:4.1vh;
+	position:sticky;
+	top:0;
+	width:100%;
+	background:rgba(255,255,255,0.8);
+	z-index:999;
+}
+
+.logo {
+	margin:0.4vh;
+	margin-left:2vh;
+	width:7vh;
+	height:7vh;
+}
+
+.nav-bar{
+	float: right;
+	margin:0;
+	margin-top: 0.6vh;
+	padding:0.5em;
+	padding-left:1em;
+	font-family: "Montserrat",sans-serif;
+	color: #440026;
+	font-size:2.5vh;
+}
+
+.hyperlink{
+	margin: 0.2em;
+	border: 3px solid #4D002C;
+	background-color: #D087B0;
+	color: #FFF;
+    padding: 1vh;
+	border-radius: 25px;
+	text-decoration-line: none;
+}
+
+h2{
+	margin:0;
+	padding:0.5em;
+	padding-left:1em;
+	color: #F2C1DD;
+	font-size: 6vh;
+}
+
+.main-box{
+	background-color:#882D60;
+	color: #F2C1DD;
+	padding:4em 3em;
+}
+
+.homepage {
+	background-color: #AA5485;
+	position: relative;
+	height:82.5vh;
+	overflow:hidden;
+	margin-bottom: 5vh;
+}
+.connector{
+	height:4.1vh;
+	width:100%;
+	background: #882D60;
+}
+.img-1{
+	position: absolute;
+	right: 5%;
+	top: 10%;
+	margin:2em;
+	height:auto;
+	width:30vh;
+	border:solid;
+	border-color: #440026;
+}
+
+.textbox-1{
+	float:left;
+	width:57%;
+	margin: 2em;
+	margin-top: 5em;
+	font-size: 2.2vh;
+}
+
+.resume {
+	background-image: url("../media/resume.jpg");
+}
+
+.education{
+	background-image: url("../media/education.jpg");
+}
+
+.personal {
+	background-image: url("../media/menboo.jpg");
+}
+
+.hobby{
+		background-image: url("../media/piano.jpg");
+		height:27vh;
+}
+
+.piano{
+		background-image: url("../media/piano.jpg");
+		float: left;
+		margin: 3.3%;
+}
+
+.photography{
+		background-image: url("../media/photography.jpg");
+		float: left;
+}
+
+.videogames{
+		background-image: url("../media/xbox.jpg");
+		float: left;
+}
+
+.piano, .photography, .videogames{
+		height:80vh;
+		width: 30%;
+		padding: 1vh;
+}
+.resume, .education, .personal{
+		height:82.5vh;
+}
+.resume, .education, .personal, .hobby, .piano, .photography, .videogames  {
+  	position: relative;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+		margin-top:10vh;
+}
+
+.rows{
+	display: table;
+}
+
+.title {
+	position: absolute;
+	right:20%;
+	top: 20%;
+}
+
+.border-title{
+	position: absolute;
+		font-family: "Montserrat", sans-serif;
+  	background-color: #D087B0;
+  	color: #fff;
+  	padding: 18px;
+  	font-size: 4vh;
+		letter-spacing: 10px;
+		margin: 0.2em;
+ 		border: 3px solid #4D002C;
+		border-radius: 25px;
+}
+
+.border-text{
+	margin:0;
+	position: absolute;
+	text-align:center;
+	padding:2em 1.3em;
+	background:rgba(77, 0, 44, 0.7);
+	font-family: "K2D", sans-serif;
+  color: #fff;
+  font-size: 2vh;
+	letter-spacing: 10px;
+	border-radius: 25px;
+	text-align: justify;
+}
+
+.textbox-2{
+	margin:0;
+	position: relative;
+	text-align:center;
+	padding:2em 1.3em;
+	background:rgba(77, 0, 44, 0.7);
+	font-family: "K2D", sans-serif;
+  color: #fff;
+  font-size: 2vh;
+	letter-spacing: 10px;
+	border-radius: 25px;
+	text-align: justify;
+}
+
+.download-my-resume{
+	margin: 0.2em;
+	border: 3px solid #4D002C;
+	background-color: #D087B0;
+	color: #FFF;
+  padding: 1vh;
+	border-radius: 25px;
+	text-decoration-line: none;
+	position: absolute;
+	right:21.5%; top: 75%;
+}
+
+.footer{
+	position:relative;
+	color:#440026;
+	background-color:#FFF;
+	text-align:center;
+	padding:50px 80px;
+	text-align: justify;
+}
+
+.icon{
+	width:5vh;
+	margin:1vh;
+}
+
+.icons{
+	position: absolute;
+	right:15%;
+}
+
+.footer-text{
+	position: absolute;
+	left:15%;
+}
